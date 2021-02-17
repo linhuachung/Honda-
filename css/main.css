@@ -262,8 +262,25 @@ body {
         text-align: center;
     }
     section.vehicles .vehicles_content h2{
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: 200;
+    }
+    section.vehicles .vehicles_content ul li a{
+        font-size:0.6em;
+        font-weight: 700;
+        color: #00324f;
+    }
+    section.vehicles .vehicles_content a:hover{
+        color: #007cc0;
+        
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #007bff;
+        background-color: white;
+        border-bottom: 5px solid #007bff;
+    }
+    section.vehicles .vehicles_content img{
+        width: 100%;
     }
 
 }
