@@ -34,6 +34,7 @@ body {
 
     header nav li.nav-item {
         position: relative;
+        overflow: hidden;
     }
 
     header nav li.nav-item .overlay {
@@ -44,10 +45,11 @@ body {
         left: 0px;
         transform: translateY(-100px);
         transition: all 0.3s;
+
     }
 
     header nav li.nav-item:hover .overlay {
-        transform: translateY(-4px);
+        transform: translateY(-8px);
     }
 
     header nav li.nav-item a {
@@ -68,6 +70,7 @@ body {
         padding-bottom: 270px;
         background-color: #00324f;
         position: relative;
+
     }
 
     section.carousel img {
@@ -170,19 +173,25 @@ body {
         opacity: 0.8;
     }
 
+    /* vehicles */
+    section.vehicles {
+        position: absolute;
+        top: 80%;
+    }
+
+
     /* Our */
-    section.our img {
-        width: 650px;
+    div.our img {
+        width: 100%;
         height: 345px
     }
 
-    section.our {
+    div.our {
 
-        position: absolute;
-        top: 570px;
-        width: 80%;
+
+
+        width: 90%;
         margin: 0 auto;
-        left: 85px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
@@ -199,15 +208,15 @@ body {
         /* don't forget to set a duration! */
     }
 
-    section.our .our_Item {
+    div.our .our_Item {
         position: relative;
     }
 
-    section.our .content_Item {
+    div.our .content_Item {
         position: absolute;
     }
 
-    section.our .our_Item button {
+    div.our .our_Item button {
         border-radius: 1.95rem;
         background-color: rgba(228, 37, 37, 0);
         border: 2px solid white;
@@ -218,13 +227,13 @@ body {
         font-weight: 700;
     }
 
-    section.our .our_Item button:hover {
+    div.our .our_Item button:hover {
         background-color: white;
         color: #007cc0;
         border: 2px solid #007cc0;
     }
 
-    section.our .our_Item .civic {
+    div.our .our_Item .civic {
         text-align: center;
         bottom: 33px;
         left: 140px;
@@ -232,34 +241,49 @@ body {
 
     }
 
-    section.our .our_Item .civic h3 {
+    div.our .our_Item .civic h3 {
         font-size: 18px;
         color: #fff;
     }
 
-    section.our .our_Item .hrv {
+    div.our .our_Item .hrv {
         text-align: left;
         top: 125px;
         left: 40px;
     }
 
+    div.our .our_Item .hrv h3 {
+        font-size: 18px;
+        color: #fff;
+        width: 245px;
+    }
+    /* vehicles_content */
+    section.vehicles .vehicles_content{
+        text-align: center;
+    }
+    section.vehicles .vehicles_content h2{
+        font-size: 3em;
+        font-weight: 200;
+    }
 
 }
 
-section.our .our_Item .hrv h3 {
-    font-size: 18px;
-    color: #fff;
-    width: 245px;
-}
-
-
-}
 
 
 
 
 
 @media (max-width: 500px) {
+    header nav.navbar div#movieNavbar {
+        background-color: #eee;
+
+    }
+
+    header nav.navbar div#movieNavbar a {
+        color: #00324f;
+        font-weight: 400;
+    }
+
     section.carousel {
         padding: 0;
     }
@@ -267,4 +291,5 @@ section.our .our_Item .hrv h3 {
     section.carousel ol.carousel-indicators {
         top: 140px;
     }
+
 }
