@@ -88,7 +88,7 @@ body {
 
     section.carousel button.btn_Carousel span {
         font-size: 14px;
-        padding: 0px 20px;
+        padding: 0px 17px;
         text-align: center;
         font-weight: 700;
     }
@@ -133,7 +133,7 @@ body {
         background-color: #007cc0;
     }
 
-    section.carousel a.carousel-control-prev i {
+     a.carousel-control-prev i {
         font-size: 50px;
         padding: 15px 8px 15px 10px;
         color: #00324f;
@@ -143,7 +143,7 @@ body {
         left: 0px;
     }
 
-    section.carousel a.carousel-control-next i {
+     a.carousel-control-next i {
         font-size: 50px;
         padding: 15px 10px 15px 8px;
         color: #00324f;
@@ -154,21 +154,21 @@ body {
 
     }
 
-    section.carousel a.carousel-control-next:hover i {
+     a.carousel-control-next:hover i {
         color: #007cc0;
     }
 
-    section.carousel a.carousel-control-prev:hover i {
+     a.carousel-control-prev:hover i {
         color: #007cc0;
     }
 
-    section.carousel .carousel-control-next,
+     .carousel-control-next,
     .carousel-control-prev {
         opacity: 0.8;
 
     }
 
-    section.carousel .carousel-control-next,
+     .carousel-control-next,
     .carousel-control-prev:hover {
         opacity: 0.8;
     }
@@ -272,6 +272,8 @@ body {
         font-size: 0.6em;
         font-weight: 700;
         color: #00324f;
+        height: 32px;
+        border-radius: 0;
     }
 
     section.vehicles .vehicles_content a:hover {
@@ -288,6 +290,7 @@ body {
 
     section.vehicles .vehicles_content img {
         width: 100%;
+        height: 570px;
     }
 
     section.vehicles .vehicles_content a.carousel-control-prev,
@@ -335,7 +338,7 @@ body {
     }
 
     section.vehicles .vehicles_content .content_Car .name {
-        text-align:center;
+        text-align: center;
         margin-bottom: 20px;
         left: 10px;
     }
@@ -345,16 +348,150 @@ body {
         font-size: 70px;
         letter-spacing: 10px;
         font-style: italic;
-        margin:0;
-    }
-    section.vehicles .vehicles_content .content_Car .name h6{
         margin: 0;
-        padding:0 100px;
     }
-    section.vehicles .vehicles_content .content_Car .name_description{
+
+    section.vehicles .vehicles_content .content_Car .name h6 {
+        margin: 0;
+        padding: 0 100px;
+    }
+
+    section.vehicles .vehicles_content .content_Car .name_description {
         width: 80%;
     }
 
+    section.vehicles .vehicles_content .content_Car .price_Car {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.vehicles .vehicles_content .content_Car ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    section.vehicles .vehicles_content .content_Car .price_Car ul h2 {
+        font-size: 42px;
+        text-align: center;
+        font-weight: 250;
+        letter-spacing: 2px;
+    }
+
+    section.vehicles .vehicles_content .content_Car .price_Car ul p {
+        font-size: 13px;
+        font-weight: 600;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    section.vehicles .vehicles_content .content_Car .price_Car ul p a {
+        color: #007bff;
+        vertical-align: super;
+        font-size: 6px;
+    }
+
+    section.vehicles .vehicles_content .content_Car .price_Car ul p a:hover {
+        color: rgba(0, 50, 79, 0.658);
+    }
+
+    section.vehicles .vehicles_content .content_Car .button ul {
+        display: flex;
+    }
+
+    section.vehicles .vehicles_content .content_Car .button ul li {
+        margin: 0 2px;
+    }
+
+    section.vehicles .vehicles_content .content_Car .button ul li .btn_CarEx {
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        padding: 0 25px;
+        border: 2px solid white;
+        border-radius: 21px;
+        transition: all 0.5s;
+        margin-right: 5px;
+        line-height:32px;
+        font-weight: 700;
+    }
+
+    section.vehicles .vehicles_content .content_Car .button ul li .btn_CarEx:hover {
+        background-color: white;
+        color: red;
+        border: 2px solid red;
+    }
+
+    section.vehicles .vehicles_content .content_Car .button ul li .btn_CarBu {
+        background-color: white;
+        color: red;
+        font-size: 15px;
+        padding: 0 40px;
+        border: 2px solid red;
+        border-radius: 21px;
+        transition: all 0.5s;
+        line-height:32px;
+        font-weight: 700;
+    }
+
+    section.vehicles .vehicles_content .content_Car .button ul li .btn_CarBu:hover {
+        background-color: red;
+        color: white;
+        border: 2px solid white;
+    }
+
+    section.vehicles .footer_Car {
+        position: absolute;
+        top: 89%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.vehicles .footer_Car ul.footer {
+        list-style: none;
+        border-top: 2px solid rgba(255, 255, 255, 0.342);
+    }
+
+    section.vehicles .footer_Car li a {
+        display: flex;
+
+    }
+
+    section.vehicles .footer_Car li a p {
+        margin: 0 150px 0 35px;
+        color: white;
+        line-height: 60px;
+    }
+
+    section.vehicles .footer_Car li a:hover {
+        text-decoration: none;
+    }
+
+    section.vehicles .footer_Car li a img {
+        width: 200px;
+        height: 55px;
+    }
+
+    section.vehicles .footer_Car ul.description_Car {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 28px 97px;
+    }
+
+    section.vehicles .footer_Car ul.description_Car li {
+        font-size: 12px;
+        color: white;
+        padding: 0 5px 0 5px;
+        background-color: rgba(0, 0, 0, 0.596);
+        height: 23px;
+        line-height: 22px;
+        display: flex;
+    }
+    section.vehicles .footer_Car ul.description_Car li a{
+        color: #007bff;
+        font-size: 6px;
+    margin: 4px -2px;
+    }
 }
 
 
