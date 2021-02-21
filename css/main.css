@@ -262,7 +262,9 @@ body {
     section.vehicles .vehicles_content {
         text-align: center;
     }
-
+    section.vehicles .vehicles_content h6{
+        line-height:0px;
+    }
     section.vehicles .vehicles_content h2 {
         font-size: 2.5em;
         font-weight: 200;
@@ -375,6 +377,7 @@ body {
         text-align: center;
         font-weight: 250;
         letter-spacing: 2px;
+        line-height: 80px;
     }
 
     section.vehicles .vehicles_content .content_Car .price_Car ul p {
@@ -491,6 +494,9 @@ body {
         color: #007bff;
         font-size: 6px;
     margin: 4px -2px;
+    }
+    section.vehicles .footer_Car ul.FIT{
+        margin-left: 670px;
     }
 }
 
