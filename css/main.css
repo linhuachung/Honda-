@@ -361,7 +361,9 @@ body {
     section.vehicles .vehicles_content .content_Car .name_description {
         width: 80%;
     }
-
+    section.vehicles .vehicles_content .content_Car .description{
+        margin:0;
+    }
     section.vehicles .vehicles_content .content_Car .price_Car {
         display: flex;
         justify-content: space-between;
@@ -378,6 +380,7 @@ body {
         font-weight: 250;
         letter-spacing: 2px;
         line-height: 80px;
+        margin: 0;;
     }
 
     section.vehicles .vehicles_content .content_Car .price_Car ul p {
@@ -385,6 +388,7 @@ body {
         font-weight: 600;
         text-align: left;
         letter-spacing: 1px;
+        margin:0;
     }
 
     section.vehicles .vehicles_content .content_Car .price_Car ul p a {
@@ -463,6 +467,7 @@ body {
         margin: 0 150px 0 35px;
         color: white;
         line-height: 60px;
+
     }
 
     section.vehicles .footer_Car li a:hover {
@@ -524,4 +529,33 @@ body {
         top: 140px;
     }
 
+
+
+
+
+
+
+
+
+    /* vehicles_content */
+    section.vehicles .slider_Vehicles {
+        
+    }
+    section.vehicles .slider_Vehicles img{
+        width: 100%;
+        height: 100%;
+    }
+    section.vehicles .slider_Vehicles .carousel-inner {
+        position: relative;
+        text-align: center;
+        padding: 0 0 390px 0;
+        background-color:#00324f
+    }
+    section.vehicles .slider_Vehicles .content_Car{
+        position: absolute;
+        top: 60%;
+        z-index:1111111;
+        width: 100%;
+        left:0;
+    }
 }
