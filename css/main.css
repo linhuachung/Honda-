@@ -292,7 +292,7 @@ body {
 
     section.vehicles .vehicles_content img {
         width: 100%;
-        height: 570px;
+        height: 100%;
     }
 
     section.vehicles .vehicles_content a.carousel-control-prev,
