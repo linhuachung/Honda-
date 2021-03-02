@@ -920,7 +920,6 @@ body {
 
     .footer__input {
         width: 90%;
-        padding: 10px;
         text-align: left;
         background-color: white;
         border: .5px solid #73828e;
@@ -936,9 +935,12 @@ body {
 
     .footer__form i {
         position: absolute;
-        left: 55px;
-        top: 15px;
-        color: #007CC0;
+    font-size: 12px;
+    left: 55px;
+    top: 15px;
+    color: #007CC0;
+    margin: 4px -1px;
+}
     }
 
     .footer__form input {
@@ -952,8 +954,10 @@ body {
     }
 
     .footer__informed p {
-        font-weight: 400;
+        font-weight: 700;
         letter-spacing: 1px;
+        font-size: 12.5px;
+        margin:0;
     }
 
     .footer__informed button {
@@ -967,10 +971,8 @@ body {
         border: 2px solid #007CC0;
         color: #007CC0;
         padding: 0 25px;
-        border: 2px solid white;
         border-radius: 21px;
         font-size: 14px;
-        margin-right: 5px;
         line-height: 32px;
         font-weight: 700;
     }
